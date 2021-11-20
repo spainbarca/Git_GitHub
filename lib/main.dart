@@ -6,7 +6,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
+s
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Rama Principal',
       theme: ThemeData(
         
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.amber,
       ),
-      home: const MyHomePage(title: 'Rama Principal'),
+      home: const MyHomePage(title: 'Rama appBar'),
     );
   }
 }
