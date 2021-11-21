@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Rama Principal',
+      title: 'Rama Principal Colorida',
       theme: ThemeData(
         
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.blueGrey,
       ),
       home: const MyHomePage(title: 'Rama Principal'),
     );
