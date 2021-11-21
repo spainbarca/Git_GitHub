@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Dando clicks desde Flutter Web:',
+              'Botón Presionar:',
             ),
             Text(
               '$_counter',
