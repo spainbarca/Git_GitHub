@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Rama Principal',
+      title: 'Curso Git y Github',
       theme: ThemeData(
         
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.amber,
       ),
-      home: const MyHomePage(title: 'Rama appBar'),
+      home: const MyHomePage(title: 'Curso Git y Github'),
     );
   }
 }
