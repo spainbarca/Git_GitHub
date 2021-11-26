@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      title: 'Curso Git y Github',
+      title: 'Curso Git, Github y GitLab',
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.indigo,
       ),
       home: const MyHomePage(title: 'Curso Git y Github'),
     );
