@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      title: 'Curso Git, Github de SpainBarca',
+      title: 'Curso Git y Github',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
