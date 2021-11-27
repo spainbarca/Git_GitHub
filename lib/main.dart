@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: const MyHomePage(title: 'Apenas empieza lo bueno'),
+      home: const MyHomePage(title: 'Empieza lo bueno'),
     );
   }
 }
