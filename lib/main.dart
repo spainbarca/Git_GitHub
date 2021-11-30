@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
 
       title: 'Curso Git y Github',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.teal,
       ),
-      home: const MyHomePage(title: 'Espero que te esté gustando el curso'),
+      home: const MyHomePage(title: 'Curso de Git y GitHub'),
     );
   }
 }
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title,style: TextStyle(backgroundColor: Colors.blueGrey),),
+        title: Text(widget.title,),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -58,11 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Botón Presionar:',
+              'Botón Presionar:', style: TextStyle(color: Colors.blueAccent, fontSize: 40),
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: TextStyle(color: Colors.blueAccent, fontSize: 250 ),
             ),
           ],
         ),
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.add_a_photo),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
