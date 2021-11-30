@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Curso Git y Github',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.amber,
       ),
       home: const MyHomePage(title: 'Espero que te esté gustando el curso'),
     );
